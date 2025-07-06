@@ -22,7 +22,7 @@ struct Bracket {
     int position;
 };
 
-int main() {
+int main(int argc, char* argv) {
     std::string text;
     getline(std::cin, text);
 
